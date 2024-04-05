@@ -104,6 +104,7 @@ Also, Pclass is noticeably linked to survival. This means that your ticket class
 # Feature Engineering for two variable
 
 - Child
+
       Pclass    1    2    3
       Child                
       False   213  167  447
