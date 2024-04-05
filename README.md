@@ -171,3 +171,20 @@ You can install these dependencies using pip:
 ```bash
 pip install pandas numpy scipy scikit-learn matplotlib seaborn statsmodels
 
+## How to Run
+
+To use this code, follow these steps:
+
+1. Clone this Git repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/A00476517/DataminingAssignment_A00476517.git
+
+2. change directory and run py file
+
+   ```bash
+   cd DataminingAssignment_A00476517
+   python Vrushali_prajapati_A00476517.py
+   
+
+
