@@ -66,3 +66,25 @@ In this summary dashboard, we present visualizations to explore the distribution
 
    - Linear scaling isn't effective due to a smaller number of extreme fare values. Logarithmic transformation is a suitable alternative.
    - The plot reveals lower survival chances for passengers with cheaper cabins, possibly due to their location deeper inside the ship, away from lifeboats.
+
+# More analysis
+- Survived: 342 (38.4 percent)
+- Not Survived: 549 (61.6 percent)
+- Total: 891
+
+These numbers reveal important insights into the survival outcomes of passengers aboard the Titanic:
+
+      - Survival Rate:
+
+         1) Out of the total 891 passengers in the dataset, 342 individuals (approximately 38.4%) survived the disaster.
+         2) Conversely, 549 individuals (approximately 61.6%) did not survive.
+
+      - Imbalance in Survival:
+
+         1) The dataset demonstrates a significant imbalance in survival outcomes, with a higher number of passengers perishing compared to those who survived.
+         2) This disparity underscores the tragic nature of the Titanic disaster, where a majority of passengers did not survive.
+
+      - Potential Challenges for Analysis:
+
+         1) The unequal distribution of survival outcomes may pose challenges for predictive modeling and analysis tasks, particularly in ensuring that models accurately capture patterns and factors influencing survival.
+         2) Addressing class imbalance may be necessary to prevent biased model performance and improve the overall reliability of analyses.
