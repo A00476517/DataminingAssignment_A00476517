@@ -35,4 +35,34 @@ The Python code in this repository performs the following tasks:
 3. Visualizing relationships between different features and survival status using seaborn and matplotlib.
 4. Printing various statistics and insights obtained from the analysis, such as median age of survivors and non-survivors.
 
-## Usage
+## Graph
+
+## Analysis summary from the graph
+
+In this summary dashboard, we present visualizations to explore the distributions of individual features in the Titanic dataset. Using Matplotlib's subplot tool, we line up the individual plots in a grid, combining overlapping histograms for ordinal features and bar plots for categorical features. Let's delve into the insights gained from studying these features:
+
+- Age:
+
+   - The median ages for survivors and non-survivors are identical. However, there's a noticeable difference in survival rates among age groups.
+   - Fewer young adults (ages 18 - 30-ish) survived, whereas children younger than 10-ish had a higher survival rate.
+   - There are no obvious outliers indicating problematic input data. The distribution of ages is consistent with expectations, with a notable shortage of teenagers compared to younger children.
+
+- Pclass (Passenger Class):
+
+   - A clear trend emerges, indicating that being a 1st class passenger increases the chances of survival.
+   - Unfortunately, this trend highlights the inequity present in life, where socio-economic status influences survival outcomes.
+
+- SibSp & Parch (Number of Siblings/Spouses and Parents/Children):
+
+   - Having 1-3 siblings/spouses/parents/children on board suggests proportionally better survival numbers compared to being alone or traveling with a large family.
+   - This finding underscores the importance of social support networks during crises like the Titanic disaster.
+
+- Embarked (Port of Embarkation):
+
+   - Unexpectedly, embarking at "C" (Cherbourg) resulted in a higher survival rate than embarking at "S" (Southampton).
+   - While this correlation is intriguing, it may be influenced by other variables not explored here.
+
+- Fare:
+
+   - Linear scaling isn't effective due to a smaller number of extreme fare values. Logarithmic transformation is a suitable alternative.
+   - The plot reveals lower survival chances for passengers with cheaper cabins, possibly due to their location deeper inside the ship, away from lifeboats.
