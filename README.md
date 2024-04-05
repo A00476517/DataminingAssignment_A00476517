@@ -37,6 +37,8 @@ The Python code in this repository performs the following tasks:
 
 ## Graph
 
+![Figure 2024-04-05 101219](https://github.com/A00476517/DataminingAssignment_A00476517/assets/144840145/ba472c62-af27-483e-98dd-5124b80c2aa3)
+
 ## Analysis summary from the graph
 
 In this summary dashboard, we present visualizations to explore the distributions of individual features in the Titanic dataset. Using Matplotlib's subplot tool, we line up the individual plots in a grid, combining overlapping histograms for ordinal features and bar plots for categorical features. Let's delve into the insights gained from studying these features:
