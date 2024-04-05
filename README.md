@@ -153,3 +153,21 @@ Also, Pclass is noticeably linked to survival. This means that your ticket class
       However, it's worth noting that the difference in accuracy between the Decision Tree Classifier and the Random Forest Classifier is negligible in this case. This could suggest that the complexity added by the ensemble methods might not be significantly beneficial for this particular dataset.
 
       Overall, while the Decision Tree and Random Forest models perform slightly better than Logistic Regression in terms of accuracy, the difference is minimal, and further analysis, such as examining other evaluation metrics or fine-tuning hyperparameters, may be needed to determine the best model for this specific task.
+
+## Requirements
+
+To run this code, you need the following Python libraries:
+
+- pandas
+- numpy
+- scipy
+- scikit-learn
+- matplotlib
+- seaborn
+- statsmodels
+
+You can install these dependencies using pip:
+
+```bash
+pip install pandas numpy scipy scikit-learn matplotlib seaborn statsmodels
+
