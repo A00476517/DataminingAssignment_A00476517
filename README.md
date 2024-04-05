@@ -93,6 +93,9 @@ These numbers reveal important insights into the survival outcomes of passengers
 
 # Exploring Feature Relationships: Correlation Analysis
 
+![Figure 2024-04-05 101228](https://github.com/A00476517/DataminingAssignment_A00476517/assets/144840145/b75b4094-bb3b-4b5e-8cce-71c385b7e2ec)
+
+
 Here we present a chart that shows how each number in our dataset relates to all the other numbers. We left out PassengerID because it's just a way to identify each passenger. In the chart, stronger relationships are shown with brighter colors. If the color is more red, it means the numbers tend to go up together. If it's more blue, they tend to go in opposite directions. If the color is closer to white, it means the relationship between the numbers is not very strong.
 
 IMG
