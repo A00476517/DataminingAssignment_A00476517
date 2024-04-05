@@ -138,7 +138,9 @@ Also, Pclass is noticeably linked to survival. This means that your ticket class
       Once again, we observe that having 1 to 3 family members onboard tends to lead to better chances of survival. This feature combines both the number of siblings/spouses (SibSp) and parents/children (Parch) aboard, giving us a larger dataset to analyze.
 
 # Models accuracy and summary
-   IM
+
+ ![Screenshot 2024-04-05 100735](https://github.com/A00476517/DataminingAssignment_A00476517/assets/144840145/6465c319-e610-4820-979b-fcda07a82fbc)
+
 
  The accuracies obtained from the three models are as follows:
 
